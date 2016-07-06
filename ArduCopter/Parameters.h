@@ -187,6 +187,7 @@ public:
         // 97: RSSI
         k_param_rssi = 97,
         k_param_throw_next_mode,
+        k_param_throw_freefall_distance,
                 
         //
         // 100: Inertial Nav
@@ -457,6 +458,7 @@ public:
     AP_Int8         throw_motor_start;
     AP_Int8         throw_type;
     AP_Int8         throw_next_mode;
+    AP_Int8         throw_freefall_distance;
     AP_Int8         terrain_follow;
 
     // RC channels
